@@ -10,11 +10,11 @@ public class TestController {
 
     @GetMapping("/first")
     public String getFirst(){
-        return "first test";
+        return "first jenkins";
     }
 
     @GetMapping("/second")
     public String getSecond(){
-        return "second test";
+        return "second jenkins";
     }
 }
